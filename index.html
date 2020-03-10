@@ -11,13 +11,17 @@ var end = parseInt(prompt("Enter end: "));
 
 var step = parseInt(prompt("Enter step: "));
 
-if(isNaN(start)==true||(isNaN(end)==true||isNaN(step)==true)){ // 
+if(isNaN(start)==true||(isNaN(end)==true||isNaN(step)==true))
+{ 
 alert("Invalid integer input, please reload and try again");
-}else if(step==0){ // THIS CHECKS IF THE STEP IS ZERO
+}
+else if(step==0){ // THIS CHECKS IF THE STEP IS ZERO
 alert("Invalid integer input, please reload and try again");
-}else if(start > end && step > 0){ // CHECK STEP > 0 FOR START > END
+}
+else if(start > end && step > 0){ // CHECK STEP > 0 FOR START > END
 alert("Invalid integer input, please reload and try again");
-}else if(start < end && step < 0){ // CHECK STEP < 0 FOR START < END
+}
+else if(start < end && step < 0){ // CHECK STEP < 0 FOR START < END
 alert("Invalid integer input, please reload and try again");
 }
 
@@ -55,6 +59,6 @@ document.write(num.toString(2)+" ");
 </script>
 </head>
 <body >
-  
+
 </body>
 </html>
